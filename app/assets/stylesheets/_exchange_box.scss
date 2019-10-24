@@ -17,6 +17,15 @@
       .title{
         color: #878d99;
         font-weight: 700;
+        margin-bottom: 1px;
+      }
+
+      .target_currency p.title{
+        height: 1px;
+      }
+
+      .change-currency{
+        float:right;
       }
 
       .btn-exchange{

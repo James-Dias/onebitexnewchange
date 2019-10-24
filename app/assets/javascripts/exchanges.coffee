@@ -1,4 +1,4 @@
-convert = ->  
+convert = ->
   $('#result').val("Atualizando...")
   $.ajax '/convert',
     type: 'GET'
@@ -18,5 +18,17 @@ $(document).ready ->
   $('#amount').keyup ->
     convert()
 
-  $('form').change ->
+  $('#source_currency').change ->
+    convert()
+
+  $('#target_currency').change ->
+    convert()
+
+  $('.change-currency').click () ->
+    source_currency = $("#source_currency").val()
+    target_currency = $("#target_currency").val()
+
+
+    $("#source_currency").val(target_currency)
+    $("#target_currency").val(source_currency)
     convert()
