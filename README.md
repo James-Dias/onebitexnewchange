@@ -10,7 +10,7 @@
 
 Sistema para conversão de moedas e criptomoedas.
 
-## [Acesse](https://onebitnewexchange.herokuapp.com/) - https://onebitnewexchange.herokuapp.com/
+## [Acesse o OneBitNewExchange](https://onebitnewexchange.herokuapp.com/)
 
 ![OneBitNewExchange](https://raw.githubusercontent.com/James-Dias/onebitnewexchange/master/public/screenshot.png)
 
@@ -22,6 +22,7 @@ Clone the repository with ```git clone https://github.com/James-Dias/onebitnewex
   * Run ```docker-compose rm --rm app rake db:create```
   * Run ```docker-compose rm --rm app rake db:migrate```
   * Run ```docker-compose up```
+  
 It's done! Just access your http://localhost:3000.
 
 
