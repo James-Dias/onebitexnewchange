@@ -10,17 +10,18 @@
 
 Sistema para conversão de moedas e criptomoedas.
 
-## [Clique e veja online](https://one-exchange.herokuapp.com/)
+## [Acesse](https://onebitnewexchange.herokuapp.com/) - https://onebitnewexchange.herokuapp.com/
 
-![OneBitNewExchange](https://raw.githubusercontent.com/James_Dias/onebitnewexchange/master/public/screenshot.png)
+![OneBitNewExchange](https://raw.githubusercontent.com/James-Dias/onebitnewexchange/master/public/screenshot.png)
 
 ## Usage
 
 Clone the repository with ```git clone https://github.com/James-Dias/onebitnewexchange.git```. In the repository folder:
-  * Run docker-compose build
-  * Run docker-compose rm --rm app rake db:create
-  * Run docker-compose rm --rm app rake db:migrate
-  * Run docker-compose up
+  * Run ```cd onebitnewexchange```
+  * Run ```docker-compose build```
+  * Run ```docker-compose rm --rm app rake db:create```
+  * Run ```docker-compose rm --rm app rake db:migrate```
+  * Run ```docker-compose up```
 It's done! Just access your http://localhost:3000.
 
 
@@ -41,5 +42,4 @@ It's done! Just access your http://localhost:3000.
 
 ## Contact
 
-E-mail: jamesdias0@gmail.com
-LinkedIn: www.linkedin.com/in/james-dias0
+E-mail: jamesdias0@gmail.com | LinkedIn: www.linkedin.com/in/james-dias0
